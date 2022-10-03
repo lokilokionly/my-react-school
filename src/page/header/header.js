@@ -1,8 +1,9 @@
 import LogoF from '../../img/title/logo.svg'
 import UserF from '../../img/nav/user.svg'
-import './header.css'
+
 import { Link } from 'react-router-dom'
-function header() {
+import ButtonX from '../../components/button'
+function Header() {
     return (
         <header className='HeaderStyle'>
 
@@ -18,13 +19,7 @@ function header() {
                         300-37-91
                     </div>
 
-                    <button
-                        className=' px-[31px] text-white text-[11px] font-bold tracking-[0.125em] uppercase
-                         bg-gradient-to-r to-[#864FF1] from-[#49B3F7]
-                           shadow-lg shadow-[#9aabf8]
-                         rounded-l-full rounded-r-full'>
-                        Записаться на урок
-                    </button>
+                    <ButtonX/>
 
                 </div>
 
@@ -99,4 +94,5 @@ function header() {
         </header>
     )
 }
-export default header;
+
+export default Header;

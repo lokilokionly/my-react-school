@@ -1,0 +1,13 @@
+import Page1 from './page/page1'
+import Page2 from './page/page2'
+import Page3 from './page/page3'
+function Education () {
+    return(
+        <main>
+            <Page1/>
+            <Page2/>
+            <Page3/>
+        </main>
+    )
+}
+export default Education;
