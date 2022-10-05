@@ -3,7 +3,7 @@ import Page2 from './page/page2'
 import Page3 from './page/page3'
 function Education () {
     return(
-        <main>
+        <main className='w-[1140px] mx-auto'>
             <Page1/>
             <Page2/>
             <Page3/>

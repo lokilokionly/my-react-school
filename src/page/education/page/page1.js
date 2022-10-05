@@ -8,8 +8,9 @@ import slot5 from '../../../img/grid1/slot5.svg'
 
 function Page1() {
     return(
-        <main className='pt-[70px]'>
-        <h1 className=" text-center titleH1 text-[40px] text-[#243976] pb-[40px]">Кому подходит онлайн образование?</h1>
+        <div className=' w-[1140px] mx-auto'>
+            <main className='pt-[70px]'>
+        <h1 className=" text-center titleH1 text-3xl text-[#243976] pb-[40px]">Кому подходит онлайн образование?</h1>
         <div className="grid  grid-flow-col gap-4  mx-[30px] text1 text-[18px] leading-7 text-center font-bold text-HeaderMainColor">
             <div className=" ">
                 <div className='flex justify-center'>
@@ -43,6 +44,7 @@ function Page1() {
             </div>
         </div>
     </main>
+        </div>
     )
 }
 export default Page1;

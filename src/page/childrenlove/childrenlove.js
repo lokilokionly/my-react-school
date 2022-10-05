@@ -1,24 +1,29 @@
 import { useState } from "react";
-import telegramm from '../../img/nav/telegramm.svg'
-import watsapp from '../../img/nav/watsapp.svg'
+
+import SlotOne from '../../img/grid2/slot1.svg'
+import SlotTwo from '../../img/grid2/slot2.svg'
+import SlotThree from '../../img/grid2/slot3.svg'
+import Slot from '../../img/grid2/slot4.svg'
+
+import Buttonplus from '../../components/buttonplus';
 function Childrenlove() {
 
-    const [image, setImage] = useState('http://localhost:3000/static/media/slot1.f332df7be2e42a78434d48c9cfd3e4c4.svg')
+    const [image, setImage] = useState(Slot)
     function ClickOne() {
-        setImage('http://localhost:3000/static/media/slot1.f332df7be2e42a78434d48c9cfd3e4c4.svg')
+        setImage(SlotOne)
     }
     function ClickTwo() {
-        setImage('http://localhost:3000/static/media/slot3.37e9c267d9753b96cd5c8817d2ac1a9f.svg')
+        setImage(SlotTwo)
     }
     function ClickThree() {
-        setImage('http://localhost:3000/static/media/slot4.03678b7c833559588d112e12b1975422.svg')
+        setImage(SlotThree)
     }
     return (
-        <main className=" bg-liteWhite">
+        <main className=" bg-liteWhite w-[1140px] mx-auto">
             <div className=" px-4">
                 <h1 className=" text-left titleH1 text-5xl text-[#243976]  pb-12 pt-12 mb-8">Дети любят наши уроки потому что:</h1>
                 <div>
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-2 container">
 
                         <div className="">
                             <button className="rounded-r-3xl rounded-l-3xl focus:bg-white shadow-xl shadow-white focus:shadow-ButtonColorTwo text-HeaderMainColor my-2
@@ -42,10 +47,16 @@ function Childrenlove() {
                                     <p className="GothamPro text-left pt-5 text-xl">В учебных классах поддерживается атмосфера дружбы и уважения. Никакого давления. Дети чувствуют себя комфортно.</p>
                                 </div>
                             </button>
+
                         </div>
-                        <div className="w-[550px] h-[624px]">
+                        
+                        <div className="  my-auto">
                             <img className=" mx-auto my-auto" src={image} alt="" />
                         </div>
+                        
+                    </div>
+                    <div className="ml-12 pb-12">
+                            <Buttonplus/>
                     </div>
                 </div>
             </div>

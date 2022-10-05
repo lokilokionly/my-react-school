@@ -4,7 +4,7 @@ import slot3 from '../../../img/grid2/slot3.svg'
 import slot4 from '../../../img/grid2/slot4.svg'
 function Page3() {
     return (
-        <main className='w-[1200px]'>
+        <main className='w-[1200px] pb-12'>
             <h1 className=" text-center titleH1 text-5xl text-[#243976]  pb-12 mb-8">Как проходят уроки в нашей онлайн школе?</h1>
 
             <div >

@@ -3,7 +3,7 @@ import school1 from '../../img/school/school1.svg'
 
 function Realschool() {
     return(
-        <main className=" pt-[80px] p-3 bg-gradient-to-t from-liteWhite pb-[50px]">
+        <main className=" pt-[80px] p-3 bg-gradient-to-t from-liteWhite pb-[50px] w-[1140px] mx-auto ">
             <p className='titleH1 text-darkBlue text-[84px] drop-shadow-xl'>Настоящая школа <br/>
             <span className='text-[#49B3F7]'>у вас дома!</span>
             </p>

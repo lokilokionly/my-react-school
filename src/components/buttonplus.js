@@ -3,7 +3,7 @@ import telegramm from '../img/nav/telegramm.svg'
 import whatsappm from '../img/nav/watsapp.svg'
 function Buttonplus () {
     return(
-        <div className='pt-[40px]'>
+        <div className='pt-[40px] w-[276px]'>
                     <button
                         className=' px-[31px] text-white text-[11px] font-bold tracking-[0.125em] uppercase
                          bg-gradient-to-r to-ButtonColorOne from-ButtonColorTwo
@@ -11,8 +11,8 @@ function Buttonplus () {
                          rounded-l-full rounded-r-full'>
                         <p className='py-[24px] px-[32px]'>Записаться на урок</p>
                     </button>
-                    <nav className='flex pt-[20px]'>
-                        <p className='text1 text-[#737373] pr-[30px]'>или написать:</p>
+                    <nav className='flex pt-[20px] justify-center text-center'>
+                        <p className='text1 text-lg font-bold text-[#737373] pr-[30px] pl-1'>или написать:</p>
                         <Link className='pr-[15px]'><img className='' src={telegramm} alt="" /></Link>
                         <Link><img src={whatsappm} alt="" /></Link>
                     </nav>

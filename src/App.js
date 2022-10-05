@@ -7,6 +7,8 @@ import ProjectHeader from './page/header/header';
 import RealSchool from './page/realschool/realschool';
 import Education from './page/education/education'
 import Childrenlove from './page/childrenlove/childrenlove';
+import ComprasionSchool from './page/comparisonSchool/comparisonSchool';
+import SchoolPrice from './page/SchoolPrice/SchoolPrice';
 // header & footer & page
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <RealSchool/>
       <Education/>
       <Childrenlove/>
+      <ComprasionSchool/>
+      <SchoolPrice/>
       <Routes>
 
         <Route></Route>
