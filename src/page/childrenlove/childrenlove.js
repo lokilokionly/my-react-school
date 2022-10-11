@@ -27,7 +27,7 @@ function Childrenlove() {
 
                         <div className="">
                             <button className="rounded-r-3xl rounded-l-3xl focus:bg-white shadow-xl shadow-white focus:shadow-ButtonColorTwo text-HeaderMainColor my-2
-                                w-[550px] h-48 " onClick={ClickOne}>
+                                w-[550px] h-48 " onClick={ClickOne} spellCheck>
                                 <div className="px-3">
                                     <h1 className="GothamPro text-2xl font-bold text-left ">Продвинутая геймификация</h1>
                                     <p className="GothamPro text-left pt-5 text-xl">Мы используем мини-игры чтобы увлечь ребенка в процесс решения задач и помочь усвоить материал в интересной форме</p>

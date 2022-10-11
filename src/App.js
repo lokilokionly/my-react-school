@@ -9,6 +9,9 @@ import Education from './page/education/education'
 import Childrenlove from './page/childrenlove/childrenlove';
 import ComprasionSchool from './page/comparisonSchool/comparisonSchool';
 import SchoolPrice from './page/SchoolPrice/SchoolPrice';
+import Certificate from './page/сertificate/Certificate';
+import ReviewsSchool from './page/reviewsSchool/reviewsSchool';
+import Akardion from './page/akardion/akardion';
 // header & footer & page
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
       <Childrenlove/>
       <ComprasionSchool/>
       <SchoolPrice/>
+      <Certificate/>
+      <ReviewsSchool/>
+      <Akardion/>
       <Routes>
 
         <Route></Route>
