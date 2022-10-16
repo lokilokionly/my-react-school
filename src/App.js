@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-
+import 'tw-elements';
 import './App.css';
 
 // header & footer & page
@@ -12,11 +12,13 @@ import SchoolPrice from './page/SchoolPrice/SchoolPrice';
 import Certificate from './page/сertificate/Certificate';
 import ReviewsSchool from './page/reviewsSchool/reviewsSchool';
 import Akardion from './page/akardion/akardion';
+
+import ProjectFooter from './page/ProjectFooter/ProjectFooter'
 // header & footer & page
 
 function App() {
   return (
-    <div className="App w-[1140px] mx-auto">
+    <div className="App w-3/5  mx-auto">
       <ProjectHeader/>
       <RealSchool/>
       <Education/>
@@ -26,13 +28,14 @@ function App() {
       <Certificate/>
       <ReviewsSchool/>
       <Akardion/>
-      <Routes>
+      <ProjectFooter/>
+      {/* <Routes>
 
         <Route></Route>
         <Route></Route>
         <Route></Route>
 
-      </Routes>
+      </Routes> */}
 
     </div>
   );

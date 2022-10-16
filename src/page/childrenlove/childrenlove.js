@@ -19,7 +19,7 @@ function Childrenlove() {
         setImage(SlotThree)
     }
     return (
-        <main className=" bg-liteWhite w-[1140px] mx-auto">
+        <main className=" bg-liteWhite  mx-auto">
             <div className=" px-4">
                 <h1 className=" text-left titleH1 text-5xl text-[#243976]  pb-12 pt-12 mb-8">Дети любят наши уроки потому что:</h1>
                 <div>

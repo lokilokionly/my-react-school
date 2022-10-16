@@ -1,16 +1,18 @@
 import Gold from '../../img/nav/gold.svg'
-function SchoolPrice() {
+export default function SchoolPrice() {
     return (
-        <main className=' bg-liteWhite '>
+        <main  className="bg-liteWhite">
+            <div className=' p-4 container mx-auto'>
             <h1 className="text-center titleH1 text-5xl text-HeaderMainColor pb-[40px]">Сколько стоит обучение в онлайн школе?</h1>
-            <div className=' w-[1500px]'>
-                <div className='flex text1 mx-auto'>
-                    <div className=' rounded-2xl bg-white text-HeaderMainColor mx-5'>
-                        <div>
-                            <h1>10 500 ₽ <span>/мес</span></h1>
+            <div className='p-4 container flex  justify-between mx-auto '>
+                    <div className='p-2 rounded-2xl bg-white text-HeaderMainColor mx-4'>
+                        <div className=' relative rounded-l-3xl rounded-r-3xl ButtonPrice text-center bottom-12 left-20 text-4xl'>
+                            <h1
+                            className=' py-6 text-white'
+                            >10 500 ₽ <span className=' text-xl'>/мес</span></h1>
                         </div>
-                        <h2 className=' text-xl font-bold'>1-4 класс</h2>
-                        <h3 className=' font-light'>Веселые и увлекательные уроки</h3>
+                        <h2 className='text-xl font-bold'>1-4 класс</h2>
+                        <h3 className='font-light'>Веселые и увлекательные уроки</h3>
 
                         <div className='flex my-8 px-5'>
                             <img src={Gold} alt="" />
@@ -40,11 +42,16 @@ function SchoolPrice() {
                         <div className='flex my-8 px-5'>
                             <img src="" alt="" />
                         </div>
-                        <button>Подробнее</button>
+               <div className='container mx-auto p-4 text-center'>
+               <button  className=" bg-ButtonColorTwo p-4 px-24 text-sm  rounded-full font-normal text-white  shadow-xl shadow-ButtonColorTwo">
+                    Подробнее
+                  </button>
+               </div>
                     </div>
-                    <div className=' rounded-2xl bg-white text-HeaderMainColor mx-5'>
-                        <div>
-                            <h1>12 500 ₽ <span>/мес</span></h1>
+                    <div className='p-2  rounded-2xl bg-white text-HeaderMainColor mx-4'>
+                        <div className=' relative rounded-l-3xl rounded-r-3xl ButtonPrice text-center bottom-12 left-20 text-4xl'>
+                            <h1
+                            className=' py-6 text-white'>12 500 ₽ <span className=' text-xl'>/мес</span></h1>
                         </div>
                         <h2 className=' text-xl font-bold'>5-8 класс</h2>
                         <h3 className=' font-light'>Помогаем не потерять интерес</h3>
@@ -76,11 +83,16 @@ function SchoolPrice() {
                         <div className='flex my-8 px-5'>
                             <img src="" alt="" />
                         </div>
-                        <button>Подробнее</button>
+                        <div className='container mx-auto p-4 text-center'>
+               <button  className=" bg-ButtonColorTwo p-4 px-24 text-sm  rounded-full font-normal text-white  shadow-xl shadow-ButtonColorTwo">
+                    Подробнее
+                  </button>
+               </div>
                     </div>
-                    <div className=' rounded-2xl bg-white text-HeaderMainColor mx-5'>
-                        <div>
-                            <h1>16 500 ₽ <span>/мес</span></h1>
+                    <div className='p-2 px-4 rounded-2xl bg-white text-HeaderMainColor mx-4'>
+                        <div className=' relative rounded-l-3xl rounded-r-3xl ButtonPrice text-center bottom-12 left-20 text-4xl'>
+                            <h1
+                            className=' py-6 text-white'>16 500 ₽ <span className=' text-xl'>/мес</span></h1>
                         </div>
                         <h2 className=' text-xl font-bold'>9-11 класс</h2>
                         <h3 className=' font-light'>Самый важный этап в жизни</h3>
@@ -112,11 +124,15 @@ function SchoolPrice() {
                         <div className='flex my-8 px-5'>
                             <img src="" alt="" />
                         </div>
-                        <button>Подробнее</button>
+                        <div className='container mx-auto p-4 text-center'>
+               <button  className=" bg-ButtonColorTwo p-4 px-24 text-sm  rounded-full font-normal text-white  shadow-xl shadow-ButtonColorTwo">
+                    Подробнее
+                  </button>
+               </div>
                     </div>
-                </div>
+                
+            </div>
             </div>
         </main>
     )
 }
-export default SchoolPrice;

@@ -70,3 +70,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 https://www.figma.com/file/cndwxXIbKTR99ywJlTjsfB/School-~13000-17000?node-id=318%3A32184
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
+  plugins: [require('tw-elements/dist/plugin')],
+  theme: {
+    extend: {
+      colors: {
+        HeaderMainColor: '#243976',
+        white: '#FFFFFF',
+        liteWhite: '#EEF1FD',
+        darkBlue: '#243976',
+  
+        ButtonColorOne: '#864FF1',
+        ButtonColorTwo: '#49B3F7',
+        ShadowButton: '#9aabf8',
+      },
+    },
+    
+  },
+  plugins: [],
+}

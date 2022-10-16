@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import ButtonX from '../../components/button'
 function Header() {
     return (
-        <header className='HeaderStyle w-[1140px] mx-auto'>
+        <header className='HeaderStyle  mx-auto'>
 
             {/* top header */}
             <div className='flex justify-between pt-[10px] pb-[19px] '>

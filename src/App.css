@@ -24,6 +24,12 @@
   border-radius: 90px;
 }
 
+.ButtonPrice {
+  background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+  box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+  
+}
+
 .titleH1 {
   font-family: ALSSchlangesans-Bold;
 }
